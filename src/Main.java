@@ -29,7 +29,6 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Map<Integer, Ubicacion> ubicaciones = new HashMap<>();
         Ubicacion ob1 = new Ubicacion(0, "Estás sentado en la clase de programación");
         Ubicacion ob2 = new Ubicacion(1, "Estás en la cima de una montaña");
         Ubicacion ob3 = new Ubicacion(2, "Estás bañándote en la playa");
